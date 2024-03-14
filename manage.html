@@ -9,35 +9,55 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-<header>
-    <figure>
-        <img src="assets/images/logo.png" alt="Логотип">
-    </figure>
-    <nav>
-        <a href="register.html">Регистрация</a>
-        <a href="account.html">Личный кабинет</a>
-        <a href="#">О нас</a>
-        <a href="#">Контакты</a>
-        <a href="#">Поиск</a>
-        <a href="#">Наши экскурсии</a>
-    </nav>
-</header>
+    <header>
+        <figure>
+            <img src="assets/images/logo.png" alt="Логотип">
+        </figure>
+        <nav>
+            <a href="account.html">Личный кабинет</a>
+            <a href="#">О нас</a>
+            <a href="#">Контакты</a>
+            <a href="#">Поиск</a>
+            <a href="#">Наши экскурсии</a>
+            <a href="#">Выйти из профиля</a>
+        </nav>
+    </header>
 
+    <main>
+        <form>
+            <label for="name">Название экскурсии</label>
+            <input type="text" id="name" name="name">
 
+            <label for="description">Описсание экскурсии</label>
+            <input type="text" id="description" name="description">
 
-<footer>
-    <a href="tel:7(3822)123-45-67">+7 (3822) 123-45-67</a>
-    <a href="mailto:info@prof.ru">info@prof.ru</a>
+            <label for="date">Даты экскурсии</label>
+            <input type="date" id="date" name="date">
+            <button>Добавить дату</button>
 
-    <nav>
-        <a href="index.html">Главная</a>
-        <a href="register.html">Регистрация</a>
-        <a href="account.html">Личный кабинет</a>
-        <a href="#">О нас</a>
-        <a href="#">Контакты</a>
-        <a href="#">Поиск</a>
-        <a href="#">Наши экскурсии</a>
-    </nav>
-</footer>
+            <label for="image">Изображение экскурсии</label>
+            <input type="file" id="image" name="image">
+
+            <label for="duration">Продолжительность экскурсии</label>
+            <input type="text" id="duration" name="duration">
+
+            <button>Сохранить изменения</button>
+        </form>
+    </main>
+
+    <footer>
+        <a href="tel:7(3822)123-45-67">+7 (3822) 123-45-67</a>
+        <a href="mailto:info@prof.ru">info@prof.ru</a>
+
+        <nav>
+            <a href="index.html">Главная</a>
+            <a href="account.html">Личный кабинет</a>
+            <a href="#">О нас</a>
+            <a href="#">Контакты</a>
+            <a href="#">Поиск</a>
+            <a href="#">Наши экскурсии</a>
+            <a href="#">Выйти из профиля</a>
+        </nav>
+    </footer>
 </body>
 </html>
