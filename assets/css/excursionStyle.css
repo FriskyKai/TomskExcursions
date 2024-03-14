@@ -1,0 +1,11 @@
+@media print {
+    filter: grayscale(1);
+
+    header {
+        display: none;
+    }
+
+    footer {
+        display: none;
+    }
+}
