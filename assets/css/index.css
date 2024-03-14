@@ -1,0 +1,99 @@
+/* Блок слайдер */
+.slider {
+    display: flex;
+    height: 512px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.slider > .slide {
+    border: 1px solid black;
+    width: 385px;
+    height: 512px;
+
+}
+
+.slider > .slide > * {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.slider > .slide > figure > img {
+    width: 256px;
+    height: 256px;
+}
+
+/* Секция авторизации */
+.authorization {
+    height: 256px;
+}
+
+.authorization > form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.authorization > form > * {
+    margin-bottom: 15px;
+}
+
+/* Секция "О нас" */
+.about {
+    display: flex;
+    flex-direction: column;
+}
+
+.about > * {
+    margin-bottom: 10px;
+}
+
+.about > p {
+    width: 1000px;
+}
+
+/* Секция экскурсий */
+
+
+/* Блок с полем поиска экскурсий */
+.search {
+    height: 64px;
+    margin-bottom: 0;
+}
+
+.search > div > * {
+    margin-right: 20px;
+}
+
+/* Секция отзывы клиентов */
+.reviews {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.reviews > a {
+    color: red;
+}
+
+/* Блок подписки */
+.describe {
+    height: 188px;
+    display: flex;
+    margin: 0;
+}
+
+.describe > form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.describe > form > * {
+    margin-bottom: 15px;
+}
+
+.describe > form> button {
+    height: 50px;
+}

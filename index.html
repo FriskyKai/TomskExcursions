@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Главная</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/index.css">
 </head>
 <body>
     <header>
@@ -24,53 +25,55 @@
     </header>
 
     <div class="slider">
+        <button> < </button>
         <div class="slide">
             <figure>
                 <img src="assets/images/1.jpeg" alt="Изображение экскурсии 1">
             </figure>
             <p>Томский старец Фёдор Кузьмич — почему его порой считают отрёкшимся от престола Александром I? Отчего невесту Павла II отправили в наш монастырь? А по какой причине первые сибирские университеты Романовы открыли именно здесь? Императорский дом и затерянный город в Сибири объединяет немало тайн, загадок и просто интересных фактов, о которых мы с удовольствием расскажем на прогулке.</p>
+            <p>4,3⭐</p>
             <button>
                 <a href="excursion.html">Далее</a>
             </button>
-            <p>4,3⭐</p>
         </div>
         <div class="slide">
             <figure>
                 <img src="assets/images/2.jpeg" alt="Изображение экскурсии 2">
             </figure>
             <p>Приглашаем погулять не только по лощёному центру, но и по нетуристическим закоулкам города! Вы заглянете в древний монастырь, увидите нетипичное деревянное зодчество, разглядите Питер в Томске и найдёте пару арт-заплаток. Мы поделимся секретами города и судьбами связанных с ним выдающихся людей.</p>
+            <p>4,3⭐</p>
             <button>
                 <a href="excursion.html">Далее</a>
             </button>
-            <p>4,3⭐</p>
         </div>
         <div class="slide">
             <figure>
                 <img src="assets/images/3.jpeg" alt="Изображение экскурсии 3">
             </figure>
             <p>Приглашаем на нескучную авторскую прогулку по Томску! Мы потрем нос Чехову, послушаем сердце города, изопьем целебной водицы, прыгнем в «портал истории», найдем арт-заплатки и волшебные кирпичи. Мы не влюбим вас в Томск, потому что любовь — дело добровольное. Но устроим для вас свидание с городом, которое останется в памяти надолго.</p>
+            <p>4,3⭐</p>
             <button>
                 <a href="excursion.html">Далее</a>
             </button>
-            <p>4,3⭐</p>
         </div>
         <div class="slide">
             <figure>
                 <img src="assets/images/4.jpeg" alt="Изображение экскурсии 4">
             </figure>
             <p>Легко и непринужденно прогуляемся по эпохам от острога Бориса Годунова до центра культуры и образования Русской Азии. Обсудим происхождении идеи о прототипе Изумрудного города. Любуясь ажурными памятниками старины, поговорим о дореволюционном сокровище Томска. А еще покажем необычные скульптуры и расскажем о знаменитых томичах — ученых, художниках и литераторах.</p>
+            <p>4,3⭐</p>
             <button>
                 <a href="excursion.html">Далее</a>
             </button>
-            <p>4,3⭐</p>
         </div>
+        <button> > </button>
     </div>
 
-    <section class="authorization">
+    <section class="authorization formDark">
         <form>
             <label for="email">Email</label>
             <input type="email" id="email" name="email" placeholder="Введите email">
-            <label for="password">Email</label>
+            <label for="password">Пароль</label>
             <input type="password" id="password" name="password" placeholder="Введите пароль">
 
             <button>
@@ -82,7 +85,7 @@
     </section>
 
     <section class="about">
-        <p>Открой Томск вместе с нами: экскурсии, вдохновение, история!</p>
+        <h2>Открой Томск вместе с нами: экскурсии, вдохновение, история!</h2>
         <p>"Томские экскурсии" - это ваш проводник в удивительный мир истории, культуры и уникальной атмосферы города Томска. Мы специализируемся на создании незабываемых путешествий и экскурсий, погружая вас в уникальные моменты прошлого и настоящего этого прекрасного города в Сибири.</p>
     </section>
 
@@ -186,38 +189,46 @@
         </div>
     </section>
 
-    <div class="search">
-        <label for="search">Поиск экскурсии</label>
-        <input type="search" id="search" name="search" placeholder="Поиск экскурсии">
+    <div class="search formDark">
+        <div>
+            <label for="search">Поиск экскурсии</label>
+            <input type="search" id="search" name="search" placeholder="Поиск экскурсии">
 
-        <button>Поиск</button>
+            <button>Поиск</button>
+        </div>
     </div>
 
     <section class="reviews">
-        <a href="excursion.html">Об экскурсии</a>
         <p>GoodMan</p>
         <figure>
             <img src="assets/images/доп3.jpeg" alt="Фотография автора">
         </figure>
         <p>Отличная экскурсия</p>
         <p>14.03.2024</p>
+        <a href="excursion.html">Об экскурсии</a>
     </section>
 
-    <div class="describe">
+    <div class="describe formDark">
         <form>
-            <label for="mail">Email</label>
-            <input type="email" id="mail" name="mail" placeholder="Введите email">
+            <div class="email">
+                <label for="mail">Email</label>
+                <input type="email" id="mail" name="mail" placeholder="Введите email">
+            </div>
 
-            <input type="checkbox" id="agreement" name="agreement">
-            <label for="agreement">Согласие на обработку персональных данных</label>
+            <div class="agree">
+                <input type="checkbox" id="agreement" name="agreement">
+                <label for="agreement">Согласие на обработку персональных данных</label>
+            </div>
 
             <button>Подписаться на новости</button>
         </form>
     </div>
 
     <footer>
-        <a href="tel:7(3822)123-45-67">+7 (3822) 123-45-67</a>
-        <a href="mailto:info@prof.ru">info@prof.ru</a>
+        <div class="social">
+            <a href="tel:7(3822)123-45-67">+7 (3822) 123-45-67</a>
+            <a href="mailto:info@prof.ru">info@prof.ru</a>
+        </div>
 
         <nav>
             <a href="index.html">Главная</a>

@@ -2,3 +2,66 @@
     margin: 0 auto;
     padding: 0;
 }
+
+/* Шапка */
+header {
+    background: black;
+    display: flex;
+    height: 128px;
+    align-items: center;
+}
+
+/* Подвал */
+footer {
+    background: black;
+    display: flex;
+    height: 64px;
+    align-items: center;
+}
+
+footer > .social {
+    display: flex;
+    flex-direction: column;
+}
+/* Общее */
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: gray;
+    cursor: pointer;
+}
+
+* > nav > a {
+    margin-left: 20px;
+}
+
+button {
+    background: darkblue;
+    width: 100px;
+    height: 24px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+button > a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button:hover {
+    color: gray;
+    cursor: pointer;
+}
+
+.formDark {
+    display: flex;
+    align-items: center;
+    background: darkslategray;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
